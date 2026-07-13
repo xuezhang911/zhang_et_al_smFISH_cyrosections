@@ -1,6 +1,8 @@
 # data source for zhang et al
 This repository is setup to make figures and code available for zhang et al manuscript, where demonstrate the development of quantitative targeted RNA spatial profiling using cryo-smFISH.
-it includes scRNA-seq/, RNA-seq/,smFISHprobes/, and results/ folders
+it includes cellpose-segmentation, scRNA-seq/, RNA-seq/,smFISHprobes/, and results/ folders
+#cellpose-segmentation 
+Examples and models used for segmentation in batch using cellpose
 # scRNA-seq
 File and R script required to generate Seurat object for downstream analysis. Normalized counts file in h5 format was downloaded from the GEO: GSE141730_aggregated_filtered_gene_bc_matrices.h5
 # RNA-seq
